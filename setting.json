@@ -109,7 +109,7 @@
       "prio": []
     }
   },
-  0{
+  {
     "enabled": true,
     "installDate": 1774461643075,
     "name": "https://teams.live.com/v2/",
@@ -142,7 +142,7 @@
     "_id": "522ab175-c8ac-4b59-b132-41148d87291f",
     "_rev": 1774783950427,
     "id": 2
-  }
+  },
   {
     "enabled": true,
     "installDate": 1774792841947,
