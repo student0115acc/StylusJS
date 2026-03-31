@@ -1,7 +1,7 @@
 [
   {
     "settings": {
-      "disableAll": false,
+      "disableAll": true,
       "exposeIframes": false,
       "exposeStyleName": false,
       "keepAlive": 0,
@@ -91,7 +91,7 @@
       "hotkey._execute_browser_action": "",
       "hotkey.openManage": "",
       "hotkey.styleDisableAll": "",
-      "sync.enabled": "google",
+      "sync.enabled": "none",
       "iconset": -1,
       "badgeDisabled": "#8B0000",
       "badgeNormal": "#006666",
@@ -123,7 +123,7 @@
     ],
     "updateDate": 1774461643075,
     "_id": "afa69a2d-10ae-4226-a4ec-04f1dc93a498",
-    "_rev": 1774781607863,
+    "_rev": 1774975281768,
     "id": 1
   },
   {
@@ -140,7 +140,7 @@
     ],
     "updateDate": 1774783950427,
     "_id": "522ab175-c8ac-4b59-b132-41148d87291f",
-    "_rev": 1774783950427,
+    "_rev": 1774975087121,
     "id": 2
   },
   {
@@ -157,7 +157,24 @@
     ],
     "updateDate": 1774792841947,
     "_id": "972ab1c1-0c36-4f79-ac2d-3eda4f50e7ea",
-    "_rev": 1774792841947,
+    "_rev": 1774975279040,
     "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1774976157771,
+    "name": "Calendar",
+    "sections": [
+      {
+        "code": "/* 隱藏 Teams 左側導覽列的「行事曆」按鈕 */\ndiv[aria-label=\"行事曆\"] {\n    display: none !important;\n}",
+        "urlPrefixes": [
+          "https://teams.live.com/v2/"
+        ]
+      }
+    ],
+    "updateDate": 1774976157771,
+    "_id": "a788e1ff-14c8-4ec9-883e-da65233ad59b",
+    "_rev": 1774976157772,
+    "id": 4
   }
 ]
