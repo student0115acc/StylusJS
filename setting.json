@@ -159,22 +159,5 @@
     "_id": "972ab1c1-0c36-4f79-ac2d-3eda4f50e7ea",
     "_rev": 1774975279040,
     "id": 3
-  },
-  {
-    "enabled": true,
-    "installDate": 1774976157771,
-    "name": "Calendar",
-    "sections": [
-      {
-        "code": "/* 隱藏 Teams 左側導覽列的「行事曆」按鈕 */\ndiv[aria-label=\"行事曆\"] {\n    display: none !important;\n}",
-        "urlPrefixes": [
-          "https://teams.live.com/v2/"
-        ]
-      }
-    ],
-    "updateDate": 1774976157771,
-    "_id": "a788e1ff-14c8-4ec9-883e-da65233ad59b",
-    "_rev": 1774976157772,
-    "id": 4
   }
 ]
