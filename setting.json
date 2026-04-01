@@ -142,22 +142,5 @@
     "_id": "522ab175-c8ac-4b59-b132-41148d87291f",
     "_rev": 1774975087121,
     "id": 2
-  },
-  {
-    "enabled": true,
-    "installDate": 1774792841947,
-    "name": "活動",
-    "sections": [
-      {
-        "code": "/* 隱藏 Teams 左側導覽列的「活動」按鈕 */\ndiv[aria-label=\"活動\"] {\n    display: none !important;\n}",
-        "urlPrefixes": [
-          "https://teams.live.com/v2/"
-        ]
-      }
-    ],
-    "updateDate": 1774792841947,
-    "_id": "972ab1c1-0c36-4f79-ac2d-3eda4f50e7ea",
-    "_rev": 1774975279040,
-    "id": 3
   }
 ]
